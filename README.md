@@ -48,6 +48,7 @@ Once the installation is complete, we can begin building!🚀
     <img src="results/preprocessing.png">
 </div>
 <br>
+
 The first piece of preprocessing, i.e. image feature extraction, has already been done (there are no images in this repository): the results, obtained through [pyradiomics](https://github.com/aim-harvard/pyradiomics), are saved in [extracted_features.csv](./data/extracted_features.csv). We have 547 training instances with 102 features, but:
 
 - Not all the features are equally useful, and we want our model to be built on the best ones
